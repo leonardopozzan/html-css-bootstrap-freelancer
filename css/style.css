@@ -14,3 +14,34 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/************* Common ****************/
+.my-flex{
+    display: flex;
+}
+.my-bg-green{
+    background-color: var(--green);
+}
+.my-bg-blue{
+    background-color: var(--blue);
+}
+.my-bg-dblue{
+    background-color: var(--dark-blue);
+}
+
+/************* Navigation bar ****************/
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+/************* Hero ****************/
+.hero{
+    padding-top: 90px;
+}
+.hero .line{
+    height: 4px;
+    background-color: white;
+    width: 30%;
+}
