@@ -1,0 +1,16 @@
+/************* Utility ****************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green: rgba(26, 188, 156, 1);
+    --blue: rgba(58, 84, 109, 1);
+    --dark-blue: rgba(44, 62, 80, 1);
+    --black: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
