@@ -16,6 +16,9 @@ html{
 }
 
 /************* Common ****************/
+img{
+    max-width: 100%;
+}
 .my-flex{
     display: flex;
 }
@@ -28,6 +31,10 @@ html{
 .my-bg-dblue{
     background-color: var(--dark-blue);
 }
+.line{
+    height: 4px;
+    width: 15%;
+}
 
 /************* Navigation bar ****************/
 nav{
@@ -38,10 +45,5 @@ nav{
 
 /************* Hero ****************/
 .hero{
-    padding-top: 90px;
-}
-.hero .line{
-    height: 4px;
-    background-color: white;
-    width: 30%;
+    padding-top: 100px;
 }
