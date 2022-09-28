@@ -1,4 +1,4 @@
-/************* Utility ****************/
+/************* Utility & Common ****************/
 *{
     margin: 0;
     padding: 0;
@@ -11,29 +11,29 @@
     --black: rgba(0, 0, 0, 1);
     --white: rgba(255, 255, 255, 1);
 }
-html{font-family: Arial, Helvetica, sans-serif;}
-/************* Common ****************/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
 .my-bg-green{background-color: var(--green);}
-
 .my-bg-blue{background-color: var(--blue);}
-
 .my-bg-dblue{background-color: var(--dark-blue);}
-
-.my-color-green{color: var(--green)!important}
-
+.my-color-green{color: var(--green)!important;}
 .my-icon{width: 30px; height: 30px;}
+
 /************* Navigation bar ****************/
-nav{
-    height: 80px; width: 100%;
+.navbar{
+    width: 100%;
     position: fixed;
     top: 0; left: 0;
+    z-index: 1000;
 }
-/************* Hero ****************/
-.hero{padding-top: 100px;}
+
 /************* Hover ****************/
-.hov-underline:hover{text-decoration: underline!important}
+.hov-underline:hover{text-decoration: underline!important;}
 .hov-overlay::after{
-    content: '+'; 
+    content: '+';
     font-size: 100px; font-weight: 700;
     display: flex;
     align-items: center;
@@ -47,3 +47,4 @@ nav{
 .hov-overlay:hover::after{
     opacity: 1;
 }
+.hov-color-green:hover{color: var(--green)!important;}
